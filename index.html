@@ -3,43 +3,39 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Celo Esencial</title>
-		<meta name="description" content="Cleo Esencial." />
-		<meta name="keywords" content="Cleo, oils, soja oils, cleoesencial, @cleoesencial, aromaterapia" />
-		<meta name="author" content="Sergio G" />
+		<title>Scroll Panels | Demo 1 | Codrops</title>
+		<meta name="description" content="A smooth scrolling design with fixed sections." />
+		<meta name="keywords" content="smooth scrolling, layout, frontend, css, javascript, web design" />
+		<meta name="author" content="Codrops" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" href="https://use.typekit.net/lgy2swt.css">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-
+		
 	</head>
 	<body class="demo-1 loading">
 		<main>
 			<div class="frame">
-				<div class="frame__title">
-
-
-
+				<div class="frame__title"> 
+					<h1 class="frame__title-main">Scroll Panels</h1> 
+					<a aria-label="Back to the article" class="frame__title-back" href="https://tympanus.net/codrops/?p=65387"> 
+						<span class="oh__inner">Back to the article</span> 
+						<svg width="18px" height="18px" viewBox="0 0 24 24"><path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
+						</svg>
 					</a>
 				</div>
-				<a class="frame__prev">New Collection</a>
+				<a class="frame__prev" href="http://tympanus.net/Development/OnScrollViewSwitch/">Previous demo</a>
 				<nav class="frame__demos">
-					<h3 class="frame__demos-title">Vintage</h3>
+					<h3 class="frame__demos-title">Effects</h3>
 					<span class="frame__demos-item">01</span>
-					<a class="frame__demos-item">14</a>
-					<a class="frame__demos-item">08</a>
-					<a class="frame__demos-item">24</a>
-
+					<a class="frame__demos-item" href="index2.html">02</a>
+					<a class="frame__demos-item" href="index3.html">03</a>
+					<a class="frame__demos-item" href="index4.html">04</a>
+					<a class="frame__demos-item" href="index5.html">05</a>
 				</nav>
 			</div>
-
-			<div class="header__flower">
-			                    <img src="img/flower.svg" alt="flying flower" class="header__flower-svg">
-			                </div>
-
-
 			<section class="section section--intro">
-				<img src="img/cleo.svg" alt="Cleo Logo" class="nav__logo">
+				<h2 class="section__title">Charlotte <br> LaRue</h2>
 				<p class="section__text">We think having capacity to choose gives us freedom. Choice is the very denial of freedom.</p>
 				<p class="section__text section__text--alt">
 					<span>Discover</span>
@@ -50,17 +46,47 @@
 			<section class="section section--columns">
 				<div class="columns">
 					<div class="column-wrap">
-
-							<canvas id="canvas" width="1280px" height="720px"><a href="https://www.youtube.com/watch?v=o8v7orT0jfE" target="_blank"></canvas>
-
-
-
-
-
-</div>
-
-
-
+						<div class="column">
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/7.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/2.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/20.avif)"></div>
+							</div>
+						</div><!-- /column -->
+					</div><!-- /column-wrap -->
+					<div class="column-wrap">
+						<div class="column">
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/6.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/4.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/5.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/22.avif)"></div>
+							</div>
+						</div><!-- /column -->
+					</div>
+					<div class="column-wrap">
+						<div class="column">
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/3.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/1.avif)"></div>
+							</div>
+							<div class="column__item">
+								<div class="column__item-img" style="background-image:url(img/21.avif)"></div>
+							</div>
+						</div><!-- /column -->
+					</div><!-- /column-wrap -->
 				</div><!-- columns -->
 			</section>
 			<section class="section section--showcase">
@@ -90,11 +116,6 @@
 						</div>
 					</div>
 				</div>
-
-
-
-
-
 				<div class="row">
 					<div class="row__header">
 						<span>2002</span>
@@ -165,146 +186,5 @@
 			</section>
 		</main>
 		<script type="module" src="js/index.js"></script>
-
-		<script>
-		$(document).ready(function() {
-
-    $(window).scroll(function() {
-        var wScroll = $(this).scrollTop();
-
-        // Animación de decoración izquierda
-        if (wScroll > $('.section-new').offset().top + $(window).height() / 20 && wScroll < $('.section-collections').offset().top) {
-            $('.decor-left').css({
-                'transform': 'rotate(' + (wScroll / 40 - 45) + 'deg)'
-            });
-        }
-
-        // Animación de decoración derecha
-        if (wScroll > $('.section-best').offset().top - $(window).height() / 3 && wScroll < $('.footer').offset().top) {
-            $('.decor-right').css({
-                'transform': 'rotate(' + (-wScroll / 30 + 85) + 'deg)'
-            });
-        }
-    });
-
-    // Animación de la flor del header
-    // Aquí podrías agregar alguna lógica específica si necesitas animar o modificar `.header__flower`
-    // Ejemplo de animación si se requiere
-    $('.header__flower').css({
-        // Puedes agregar CSS de animación o transformación si es necesario
-    });
-
-});
-
-</script>
-
-
-		   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-var totalImages = 620;
-var images = [];
-
-for (var i = 3; i < totalImages + 3; i++) {
-    var fileName = 'Walking';
-    if (i < 10) fileName += '00';
-    else if (i < 100) fileName += '0';
-    fileName += i + '.jpg';
-    var img = new Image;
-    img.src = 'https://assets.codepen.io/325536/' + fileName;
-    images.push(img);
-}
-
-var canv = document.getElementById('canvas');
-var context = canv.getContext('2d');
-
-var currentLocation = 0;
-
-var setImage = function (newLocation) {
-    context.drawImage(images[newLocation], 0, 0, 1280, 720);
-    $(".status").text((newLocation + 1) + " / " + totalImages);
-};
-
-var wheelDistance = function (evt) {
-    if (!evt) evt = event;
-    var w = evt.wheelDelta,
-        d = evt.detail;
-    if (d) {
-        if (w) return w / d / 40 * d > 0 ? 1 : -1; //opera
-        else return -d / 3;
-    } else return w / 120;
-};
-
-// Firefox
-var wheelDirection = function (evt) {
-    if (!evt) evt = event;
-    return (evt.detail < 0) ? 1 : (evt.detail > 0) ? 1 : -1;
-};
-
-var MouseWheelHandler = function (e) {
-    e.preventDefault(); //No scroll
-
-    var distance = wheelDistance(e);
-    var direction = wheelDirection(e);　　
-    currentLocation -= Math.round(distance * 2);
-    if (currentLocation < 0) currentLocation = 0;
-    if (currentLocation >= images.length) currentLocation = images.length - 1;
-
-    setImage(currentLocation);
-};
-
-var canvasFillWin = function (e) {
-    var h = 720;
-    var w = 1280;
-    var ratio = h / w;
-    var winW = $(window).width();
-    var winH = $(window).height();
-    var winRatio = winH / winW;
-
-    if (winRatio > ratio) {
-        $(canv)
-            .width(winH / ratio)
-            .height(winH)
-            .css({
-                marginLeft: -winH / ratio / 2 + "px",
-                left: "50%",
-                top: "0",
-                marginTop: "0"
-            });
-    } else {
-        $(canv)
-            .width(winW)
-            .height(winW * ratio)
-            .css({
-                marginLeft: "0",
-                left: "0",
-                top: "50%",
-                marginTop: -winW * ratio / 2 + "px"
-            });
-    }
-};
-
-window.addEventListener("mousewheel",
-    MouseWheelHandler, false);
-
-//Gecko
-window.addEventListener("DOMMouseScroll",
-    MouseWheelHandler, false);
-
-window.addEventListener("resize",
-    canvasFillWin, false);
-
-
-canvasFillWin();
-
-$(document).ready(function(){
-   var b = $('body');
-   b.addClass('loaded');
-   $("#preloader p").text("scroll to stroll");
-   setImage(1);
-});
-</script>
-
-
-
 	</body>
 </html>
